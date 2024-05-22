@@ -31,7 +31,8 @@ function hidescreen2(event){
 
   screen2.classList.add("hide")
   screen1.classList.remove("hide")
-  
+
+  location.reload()
 }
 
 //eventos
